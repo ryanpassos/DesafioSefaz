@@ -1,0 +1,7 @@
+create database desafio;
+
+create table Usuario (login varchar(50) primary key, nome varchar(255), email varchar(100),
+		       senha varchar(20) telefone varchar(20), UNIQUE KEY a (login));
+
+create table Telefone (ddd int, numero varchar(20)
+			   tipo varchar(10));
